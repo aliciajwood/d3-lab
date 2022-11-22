@@ -1,0 +1,151 @@
+/* Stylesheet by Alicia Wood, 2022 */
+
+body {
+    font-family: 'Titillium Web', serif;
+    background-color: #FAFAFA;
+    color: #242424;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #0F084B;
+    color: #eef7fb;
+    font-weight: 400;
+    font-size:22pt;
+    padding: 5px;
+    text-align: center;
+    max-width:none;
+}
+
+footer {
+    background-color: #0F084B;
+    color: #eef7fb;
+    text-align: right;
+    margin-top: 10px;
+}
+
+.bullets {
+    padding-left:20px;
+}
+
+p {
+    font-size: 12pt;
+    padding-left: 20px;
+    padding-right:20px;
+    padding-top:5px;
+    padding-bottom:5px;
+    margin:8px;
+    
+}
+
+p-small {
+    font-size:10pt;
+    padding-left: 20px;
+    padding-right:20px;
+    padding-top:5px;
+    padding-bottom:5px;
+    display:block;
+}
+
+ul {
+    padding-left:80px;
+    margin-top:-12px;
+    margin-bottom:5px;
+}
+
+h2 {
+    margin:0;
+    letter-spacing:2px;
+}
+
+h4 {
+    margin:0;
+    font-weight:300;
+}
+
+.countries {
+    fill: #FFF;
+    stroke: #CCC;
+    stroke-width: 2px;
+}
+
+.states {
+    stroke: #000;
+    stroke-width: 0.5px;
+    stroke-linecap: round;
+}
+
+.map {
+    border: medium solid #999;
+    background: #ededed;
+    margin: 10px 0 0 20px;
+}
+
+.chart {
+    float: right;
+    margin: 10px 20px 0 0;
+}
+
+.chartTitle {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.chartBackground {
+    fill: rgba(128,128,128,.2);
+}
+
+.chartFrame {
+    fill: none;
+    stroke: #999;
+    stroke-width: 3px;
+    shape-rendering: crispEdges;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #999;
+    stroke-width: 1px;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    font-size: 1em;
+    fill: #999;
+}
+
+.dropdown {
+    position: absolute;
+    top:30px;
+    left: 40px;
+    z-index: 10;
+    font-family: 'Titillium Web', serif;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 2px;
+    border: 1px solid #999;
+    box-shadow: 2px 2px 4px #999;
+}
+
+option {
+    font-weight: normal;
+}
+
+.infolabel {
+    position: absolute;
+    height: 50px;
+    min-width: 100px;
+    color: #fff;
+    background-color: #000;
+    border: solid thin #fff;
+    padding: 5px 10px 10px;
+    top: -75px;
+}
+
+.infolabel h1 {
+    margin: 0 20px 0 0;
+    padding: 0;
+    display: inline-block;
+    line-height: 1em;
+}

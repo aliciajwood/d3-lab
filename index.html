@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>D3 Lab</title>
+        
+        <!--font links-->
+        <link href='https://fonts.googleapis.com/css?family=Titillium Web' rel='stylesheet'>
+
+		<!--put your external stylesheet links here-->
+		<link rel="stylesheet" href="css/style.css">
+		<!--[if IE<9]>
+			<link rel="stylesheet" href="css/style.ie.css">
+		<![endif]-->
+	</head>
+
+	<body>
+		<!--put your initial page content here-->
+        <header>
+            <div>
+                <h2>DISPARITIES IN THE U.S. PUBLIC EDUCATION SYSTEM</h2>
+            </div>
+        </header>
+        
+        <div id="intro">
+            <p>
+                 Analysts at WalletHub conducted a study in 2022 that evaluated all 50 states and the District of Columbia across 15 different metrics measuring the quality of their public education system. <b>Connecticut</b>, <b>Massachussetts</b>, and <b>New Jersey</b> came out on top with the best quality education, whilst <b>New Mexico</b>, <b>Alaska</b>, and <b>Louisiana</b> were found to have the worst. <sup><small> 4</small></sup>
+            </p>
+            <p>
+                Use the map below to explore the differences in our public education systems across all 50 states and the District of Columbia through these 5 key metrics:
+            </p>
+            <ul style=“list-style-type:square” >
+                <li><b>Graduation Rates:</b> U.S. Public High School 4-year Adjusted Cohort Graduation Rate (2018-2019) <sup><small> 2</small></sup></li>
+                <li><b>Class Size:</b> Number of Students Enrolled Per Teacher in U.S. Public Schools (2020-2021) <sup><small> 1</small></sup></li>
+                <li><b>Teacher Pay:</b> Average Salary for U.S. Public School Teachers (2020-2021) <sup><small> 1</small></sup></li>
+                <li><b>Staffing:</b> Number of Underqualified Teachers Per 10,000 Students in U.S. Public Schools (differs by state ranging from 2020-2021 to 2014-2015)<sup><small> 3</small></sup></li>
+                <li><b>Spending:</b> Expenditures Per Student in Fall Enrollment in U.S. Public Schools (2019-2020) <sup><small> 1</small></sup></li>
+            </ul>
+        </div>
+        
+        <div id="main">
+        </div>
+        
+        <div id="citation">
+            <p-small>
+                Sources:
+            </p-small>
+            <div class="bullets">
+                <p-small>
+                    (1) National Education Association. (2022). Rankings of the States 2021 and Estimates of School Statistics 2022. June 2022. Retrieved from https://www.nea.org/research-publications.
+                </p-small>
+                <p-small> 
+                    (2) de Brey, Cristobal, Anlan Zhang, and Sarah Duffy. (2021). Digest of Education Statistics 2020 (NCES 2020-009, table 219.46). National Center for Education Statistics, Institute of Education Sciences, U.S. Department of Education. Washington, DC. Retrieved from https://nces.ed.gov/programs/digest/d20/tables/dt20_219.46.asp
+                </p-small>
+                <p-small>
+                    (3) Nguyen, Tuan D., Chanh B. Lam, and Paul Bruno. (2022). Is there a national teacher shortage? A systematic examination of reports of teacher shortages in the United States. (EdWorkingPaper: 22-631). Retrieved from Annenberg Institute at Brown University: https://doi.org/10.26300/76eq-hj32
+                </p-small>
+                <p-small>
+                    (4) McCann, A. (2022, July 25). States with the Best and Worst School Systems. WalletHub. Retrieved from https://wallethub.com/edu/e/states-with-the-best-schools/5335
+                </p-small>
+            </div> 
+        </div>
+        
+        <footer>
+            <div>
+                <p-small>
+                    <small>Made by Alicia Wood, 11/23/2022 for UW-Madison's GEOG 575 course.</small>
+                </p-small>
+            </div>
+        </footer>
+        
+			
+		<!--you can also use this space for internal scripts or stylesheets;
+		place these within <script> or <style> tags-->
+
+		<!--put your external script links here-->
+        <script type="text/javascript" src="lib/jquery-3.6.0.min.js"></script>
+        <script type="text/javascript" src="lib/d3-queue.min.js"></script>
+        <script type="text/javascript" src="lib/d3.min.js"></script>
+        <script type="text/javascript" src="lib/topojson.min.js"></script>
+        <script type="text/javascript" src="lib/simple-statistics.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
